@@ -1,3 +1,4 @@
+# Обход в глубину (DFS)
 def dfs(graph, start):
     # Проверяем, существуют ли вершины a и b в графе
     if a not in graph or b not in graph:
