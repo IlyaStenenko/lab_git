@@ -1,4 +1,7 @@
 def dfs(graph, start):
+    # Проверяем, существуют ли вершины a и b в графе
+    if a not in graph or b not in graph:
+        raise ValueError("Некорректные вершины a или b")
     visited = []
     stack = [start]
     while stack:
